@@ -1,4 +1,4 @@
-name: Build and Publish Docker
+{name: Build and Publish Docker
 on:
 push:
 branches:
@@ -14,4 +14,4 @@ run: npm install
 - name: Run unit tests
 run: npm test
 env:
-SQLITE_DB_LOCATION: /tmp/todo.db
+SQLITE_DB_LOCATION: /tmp/todo.db}
