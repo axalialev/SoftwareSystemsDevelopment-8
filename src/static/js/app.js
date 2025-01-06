@@ -3,7 +3,7 @@ function App() {
     return (
         <React.Fragment>
             <header style={{ textAlign: 'center', margin: '20px 0' }}>
-                <h1>Ma Todo List d'aujourd'hui</h1>
+                <h1>La Todo List d'Axalia Levenchaud</h1>
             </header>
             <Container>
                 <Row>
