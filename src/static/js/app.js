@@ -1,13 +1,18 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
-        <Container>
-            <Row>
-                <Col md={{ offset: 3, span: 6 }}>
-                    <TodoListCard />
-                </Col>
-            </Row>
-        </Container>
+        <React.Fragment>
+            <header style={{ textAlign: 'center', margin: '20px 0' }}>
+                <h1>Ma Todo List d'aujourd'hui</h1>
+            </header>
+            <Container>
+                <Row>
+                    <Col md={{ offset: 3, span: 6 }}>
+                        <TodoListCard />
+                    </Col>
+                </Row>
+            </Container>
+        </React.Fragment>
     );
 }
 
